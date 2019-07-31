@@ -1,0 +1,9 @@
+{
+  "id": "1459d007-189a-4174-8223-7a218cd47d98",
+  "name": "EducationLevel",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

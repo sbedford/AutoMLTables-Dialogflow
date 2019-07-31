@@ -1,0 +1,100 @@
+{
+  "id": "80250520-fb3e-42ca-8eb0-a58b6c43f8cf",
+  "name": "Predict Duration",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "05621f4f-f687-4db0-82ba-dd3dd09827d5",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the age of the candidate?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cca1a7f8-4eaa-478e-a876-5cd74e9a6303",
+          "required": true,
+          "dataType": "@MaritalStatus",
+          "name": "maritalstatus",
+          "value": "$maritalstatus",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is the candidate Single or Married?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1bf525e9-2ce7-428c-bc45-3436362cca28",
+          "required": true,
+          "dataType": "@EducationLevel",
+          "name": "education",
+          "value": "$education",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the level of education held by the candidate?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1a48a73d-5efe-4d07-9dcb-6a26011edab6",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "job",
+          "value": "$job",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What job does the candidate currently hold?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok - lets do it!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "58acab0d-f8e1-439b-96e7-70236375a35f",
+    "data": [
+      {
+        "text": "predict the duration for a ",
+        "userDefined": false
+      },
+      {
+        "text": "single",
+        "alias": "maritalstatus",
+        "meta": "@MaritalStatus",
+        "userDefined": false
+      },
+      {
+        "text": " male, ",
+        "userDefined": false
+      },
+      {
+        "text": "36 years old",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": false
+      },
+      {
+        "text": " with a ",
+        "userDefined": false
+      },
+      {
+        "text": "high school",
+        "alias": "education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      },
+      {
+        "text": " level education in a ",
+        "userDefined": false
+      },
+      {
+        "text": "professional",
+        "alias": "job",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7181e6af-b9cf-42e2-8305-4605b15b0a42",
+    "data": [
+      {
+        "text": "predict the duration for a ",
+        "userDefined": false
+      },
+      {
+        "text": "single",
+        "alias": "maritalstatus",
+        "meta": "@MaritalStatus",
+        "userDefined": true
+      },
+      {
+        "text": " male, ",
+        "userDefined": false
+      },
+      {
+        "text": "36 years old",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": true
+      },
+      {
+        "text": " with a ",
+        "userDefined": false
+      },
+      {
+        "text": "secondary",
+        "alias": "education",
+        "meta": "@EducationLevel",
+        "userDefined": true
+      },
+      {
+        "text": " level education in a ",
+        "userDefined": false
+      },
+      {
+        "text": "professional",
+        "alias": "job",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb56866f-41fd-4383-9201-c501f23c5660",
+    "data": [
+      {
+        "text": "I want to predict the duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
